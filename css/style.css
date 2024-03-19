@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(91, 115, 83);
+    background-image: url('./images/mysterioeser-tropischer-regenwald-leuchtet-in-ueppigem-gruen-das-von-ki-generiert-wird.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.table-container {
+    margin-right: 10vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+    text-shadow: 0px 0px 20px white;
+    font-family: 'JurassicPark', sans-serif;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-shadow: 0px 0px 10px white
+}
+
+
+.backgroundimage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1; 
+    opacity: 0.7;
+}
+
+table {
+    font-weight: bold;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 3px solid rgba( 255, 255, 255, 50 );
+}
+
+.questionsDiv {
+    text-align: center;
+    margin-left: 20px;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 3px solid rgba( 255, 255, 255, 50 );
+
+    width: 70vh;
+    height: auto;
+    padding-right: 20px;
+}
+
+
+
+
+.td1class{
+    width: 7vh;
+    height: 7vh;
+
+    text-align: center;
+    border-collapse: collapse;
+    
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;    
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+}
+.td2class{   
+    
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+    border-collapse: collapse;
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 3px solid rgba( 255, 255, 255, 50 );
+    
+}
+
+.td1class:hover{
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+}
+.td2class:hover{
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    
+}
+
+.textfieldstyle {
+    height: 30px;
+    width: 300px;
+    margin-right: 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 3px solid rgba( 255, 255, 255, 50 );
+}
+
+.btnsubmitstyle {
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 3px solid rgba( 255, 255, 255, 50 );
+}
+
+.btnsubmitstyle:hover{
+    background-color: rgb(47, 178, 47);
+}
+
+@font-face {
+    font-family: 'JurassicPark';
+    src: url('/fonts/Jurassic_Park.ttf') format('truetype');
+}
+
+
