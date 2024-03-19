@@ -5,9 +5,8 @@ let letters2 = ['B', 'R', 'A', 'N', 'D'];
 let letters3 = ['A', 'X', 'T'];
 let letters4 = [''];
 
-
 // Background Audio
-let backgroundAudio = new Audio('/audio/audio.mp3');
+let backgroundAudio = new Audio('/audio/Level1Background.mp3');
 
 document.addEventListener('DOMContentLoaded', () => {
   backgroundAudio.play();
