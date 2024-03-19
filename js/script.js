@@ -11,6 +11,7 @@ let backgroundAudio = new Audio('/audio/Level1Background.mp3');
 document.addEventListener('DOMContentLoaded', () => {
   backgroundAudio.play();
   backgroundAudio.volume = 0.5; // Set volume to half of the normal level
+  console.log('Triggered');
 });
 
 function sumbit1() {
