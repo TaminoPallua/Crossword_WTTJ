@@ -3,6 +3,7 @@ let letters0 = ['F', 'L', 'O', 'R', 'A'];
 let letters1 = ['A', 'B', 'B', 'A', 'U'];
 let letters2 = ['B', 'R', 'A', 'N', 'D'];
 let letters3 = ['A', 'X', 'T'];
+let letters4 = ['']
 
 function sumbit1() {
   let userInput = document.getElementById('submissionText').value.toLowerCase();
