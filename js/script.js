@@ -10,7 +10,6 @@ let letters1 = ['A', 'B', 'B', 'A', 'U'];
 let letters2 = ['B', 'R', 'A', 'N', 'D'];
 let letters3 = ['A', 'X', 'T'];
 let letters4 = ['T', 'R', 'O', 'P', 'E', 'N'];
-//Testkommentar
 
 
 let backgroundAudio = new Audio('/audio/Level1Background.mp3');
