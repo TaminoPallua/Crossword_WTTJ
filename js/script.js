@@ -79,8 +79,6 @@ function sumbit1() {
       document.getElementById('submissionText').style.backgroundColor = 'white';
       document.getElementById('submissionText').value = '';
     }, 1000);
-
-
   }
 }
 
@@ -99,6 +97,7 @@ document.getElementById('submissionText').addEventListener('keydown', function (
 });
 
 let questionShown = false;
+<<<<<<< HEAD
 
 //Variables for hiddenBox
 
@@ -221,4 +220,15 @@ document.getElementById('c7').addEventListener('click', () => {
     console.log('Div Q5 wird nichtmehr angezeigt')
     shownQ5 = false;
   }
+});
+
+document.getElementById('a2').addEventListener('click', ()=>{
+  
+  if (questionShown === true) {
+    alert('Schließe zuerst die bereits geöffnete Frage!')
+  } else{
+    document.getElementById("hiddenBoxQ1").style.display = "block";
+    questionShown = true;    
+  }
+  
 });
