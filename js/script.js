@@ -1,16 +1,15 @@
-let words = ['flora', 'abbau', 'brand', 'axt'];
+let words = ['flora', 'abbau', 'brand', 'axt', 'tropen'];
 let letters0 = ['F', 'L', 'O', 'R', 'A'];
 let letters1 = ['A', 'B', 'B', 'A', 'U'];
 let letters2 = ['B', 'R', 'A', 'N', 'D'];
 let letters3 = ['A', 'X', 'T'];
-let letters4 = [''];
+let letters4 = ['T', 'R', 'O', 'P', 'E', 'N'];
 
-// Background Audio
 let backgroundAudio = new Audio('/audio/Level1Background.mp3');
 
 document.addEventListener('DOMContentLoaded', () => {
   backgroundAudio.play();
-  backgroundAudio.volume = 0.5; // Set volume to half of the normal level
+  backgroundAudio.volume = 0.5;
 });
 
 function sumbit1() {
@@ -37,6 +36,14 @@ function sumbit1() {
     document.getElementById('e5').innerHTML = letters3[0];
     document.getElementById('f5').innerHTML = letters3[1];
     document.getElementById('g5').innerHTML = letters3[2];
+  } else if (userInput == words[4]) {
+    document.getElementById('c7').innerHTML = letters4[0]
+    document.getElementById('d7').innerHTML = letters4[1]
+    document.getElementById('e7').innerHTML = letters4[2]
+    document.getElementById('f7').innerHTML = letters4[3]
+    document.getElementById('g7').innerHTML = letters4[4]
+    document.getElementById('h7').innerHTML = letters4[5]
+    
   }
 
   // Change style according to input
@@ -44,7 +51,8 @@ function sumbit1() {
     userInput != words[0] &&
     userInput != words[1] &&
     userInput != words[2] &&
-    userInput != words[3]
+    userInput != words[3] &&
+    userInput != words[4]
   ) {
     document.getElementById('submissionText').style.backgroundColor = 'red';
   } else {
@@ -56,8 +64,6 @@ function sumbit1() {
 document.getElementById('submissionText').addEventListener('keypress', function (event) {
   if (event.key === 'Enter' && document.getElementById('submissionText').value.length > 0) {
     sumbit1();
-  } else if (event.key === 'Delete') {
-    console.log('Test');
   }
 });
 
