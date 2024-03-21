@@ -96,7 +96,6 @@ document.getElementById('submissionText').addEventListener('keydown', function (
 });
 
 let questionShown = false;
-<<<<<<< HEAD
 
 //Variables for hiddenBox
 
