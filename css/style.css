@@ -1,8 +1,7 @@
 body {
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
   background-color: rgb(91, 115, 83);
   background-image: url('./images/mysterioeser-tropischer-regenwald-leuchtet-in-ueppigem-gruen-das-von-ki-generiert-wird.jpg');
@@ -18,11 +17,6 @@ body {
 
 .table-container {
   margin-right: 10vh;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
 }
 
 h1 {
@@ -112,6 +106,69 @@ table {
 .td2class:hover {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+}
+
+#a2{
+  background-image: url('../images/imgNr1.png');
+  background-size: cover;
+}
+#e2{
+  background-image: url('../images/imgNr2.png');
+  background-size: cover;
+}
+#e4{
+  background-image: url('../images/imgNr3.png');
+  background-size: cover;
+}
+#e5{
+  background-image: url('../images/imgNr4.png');
+  background-size: cover;
+}
+#c7{
+  background-image: url('../images/imgNr5.png');
+  background-size: cover;
+}
+
+#hiddenBoxQ1{
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 50);
+}
+#hiddenBoxQ2{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 50);
+}
+#hiddenBoxQ3{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 50);
+}
+#hiddenBoxQ4{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 50);
+}
+#hiddenBoxQ5{
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 50);
 }
 
 .textfieldstyle {
