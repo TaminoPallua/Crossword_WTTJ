@@ -110,6 +110,8 @@ document.getElementById('a2').addEventListener('click', () => {
   if (!shownQ1) {
     document.getElementById("hiddenBoxQ1").style.display = "block";
     shownQ1 = true;
+    console.log('Div Q1 wird angezeigt')
+    //Hide other Question Divs
     document.getElementById("hiddenBoxQ2").style.display = "none";
     document.getElementById("hiddenBoxQ3").style.display = "none";
     document.getElementById("hiddenBoxQ4").style.display = "none";
@@ -118,7 +120,6 @@ document.getElementById('a2').addEventListener('click', () => {
     shownQ3 = false;
     shownQ4 = false;
     shownQ5 = false;
-    console.log('Div Q1 wird angezeigt')
 
   }
   else if (shownQ1) {
