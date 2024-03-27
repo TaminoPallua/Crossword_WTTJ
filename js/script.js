@@ -220,14 +220,3 @@ document.getElementById('c7').addEventListener('click', () => {
     shownQ5 = false;
   }
 });
-
-document.getElementById('a2').addEventListener('click', ()=>{
-  
-  if (questionShown === true) {
-    alert('Schließe zuerst die bereits geöffnete Frage!')
-  } else{
-    document.getElementById("hiddenBoxQ1").style.display = "block";
-    questionShown = true;    
-  }
-  
-});

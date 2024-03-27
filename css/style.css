@@ -1,5 +1,6 @@
 body {
-  display: flex;  
+  display: flex;
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -9,14 +10,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.input-container {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
 
-.table-container {
-  margin-right: 10vh;
+
+.container{
+  justify-content: center;
 }
 
 h1 {
@@ -46,7 +43,11 @@ h2 {
   opacity: 0.7;
 }
 
+/* Kreuzworträtselfeld */
+
 table {
+  justify-content: center;
+
   font-weight: bold;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -56,20 +57,61 @@ table {
   border: 3px solid rgba(255, 255, 255, 50);
 }
 
-.questionsDiv {
-  text-align: center;
-  margin-left: 20px;
-  background: rgba(255, 255, 255, 0.55);
+/* Hier ist der Div Container für die Fragen*/
+
+/* .questionsDiv {
+  margin: 0 auto;
+} */
+
+
+
+/* Eingabefeld, Button und generell der ganze Container wird hier gestyled*/
+
+.input-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.textfieldstyle {
+  height: 30px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
   border: 3px solid rgba(255, 255, 255, 50);
-
-  width: 70vh;
-  height: auto;
-  padding-right: 20px;
+  font-size: 20px;
 }
+
+.btnsubmitstyle {
+  
+  height: 35px;
+  width: 90px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 50);
+  margin-left: 2vh;
+}
+
+.btnsubmitstyle:hover {
+  background-color: rgb(47, 178, 47);
+}
+
+/* Schriftart */
+
+@font-face {
+  font-family: 'JurassicPark';
+  src: url('/fonts/Jurassic_Park.ttf') format('truetype');
+}
+
+
+/* Einzelne Felder bzw auch die Questionboxen werden hier gestyled */
 
 .td1class {
   width: 7vh;
@@ -171,36 +213,4 @@ table {
   border: 3px solid rgba(255, 255, 255, 50);
 }
 
-.textfieldstyle {
-  height: 30px;
-  width: 300px;
-  margin-right: 10px;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-  border-radius: 10px;
-  border: 3px solid rgba(255, 255, 255, 50);
-  font-size: 20px;
-}
 
-.btnsubmitstyle {
-  height: 35px;
-  width: 90px;
-  font-weight: bold;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-  border-radius: 10px;
-  border: 3px solid rgba(255, 255, 255, 50);
-}
-
-.btnsubmitstyle:hover {
-  background-color: rgb(47, 178, 47);
-}
-
-@font-face {
-  font-family: 'JurassicPark';
-  src: url('/fonts/Jurassic_Park.ttf') format('truetype');
-}
